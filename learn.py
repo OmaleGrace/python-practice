@@ -17,3 +17,25 @@ def solution(name, a, b, c):
     average = round(averag, 2) #this rounds the number to 2 decimal place
     maximum = max(a,b,c) #this gets the maximum number
     return f"Student: {name}\nSum: {sum}\nAverage: {average}\nMaximum: {maximum}"
+
+
+def solution(celsius):
+    celsius = float()
+    fahrenhei = (celsius * 9 / 5) + 32
+    fahrenheit = round(fahrenhei, 2)
+    return fahrenheit
+
+
+def solution(meters):
+    meters = float(meters)
+    centimeters = 100 *meters
+    mililmeters = 1000*meters
+    return f"Centimeters: {centimeters}.\nMillimeters: {millimeters}."
+
+
+def solution(kilograms):
+    kilograms = float(kilograms)
+    grams = 1000 * kilograms
+    pounds = round(kilograms * 2.20462, 2)
+
+    return f"Kilograms: {kilograms}\nGrams: {grams}\nPounds: {pounds}"
