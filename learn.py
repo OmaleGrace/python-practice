@@ -39,3 +39,9 @@ def solution(kilograms):
     pounds = round(kilograms * 2.20462, 2)
 
     return f"Kilograms: {kilograms}\nGrams: {grams}\nPounds: {pounds}"
+
+
+grace = "Omale"
+if grace == "Omale":
+    grace = "Omale Ooja Grace"
+    print(grace)
