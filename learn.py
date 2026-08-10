@@ -43,5 +43,5 @@ def solution(kilograms):
 
 grace = "Omale"
 if grace == "Omale":
-    grace = "Omale Ooja Grace"
+    grace = "Omale Grace"
     print(grace)
