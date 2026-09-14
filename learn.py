@@ -45,3 +45,14 @@ grace = "Omale"
 if grace == "Omale":
     grace = "Omale Grace"
     print(grace)
+
+
+def solution(value):
+    try:
+        value = float(value)
+        value = round(value * 2, 2)
+        return value
+    except ValueError:
+        return "Invalid number"
+
+
