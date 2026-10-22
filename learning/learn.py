@@ -76,7 +76,37 @@
 # total = float(price) * int(quantity)
 # print(f"{name}, your total is {total}")
 
-print(5 > 3)
-print(5 == 5)
-print(5 == "5")
-print(10 != 10)
+# print(5 > 3)
+# print(5 == 5)
+# print(5 == "5")
+# print(10 != 10)
+
+
+# #IF, ELSE and ELIF
+
+# age = input("How old are you? ")
+# x = int(age)
+# if x < 13:
+#     print("You are a child")
+# elif x < 18:
+#     print("You are a teenager")
+# else:
+#     print("You are an adult")
+
+# print(5 > 3 and 2 > 1)
+# print(5 > 3 and 2 > 10)
+# print(5 > 3 or 2 > 10)
+# print(not 5 > 3)
+# print(not (10 == 10 and 3 > 5))
+
+# age = input("How old are you? ")
+# ageint = int(age)
+# ticket = input("Do you have a ticket? (yes/no)  ")
+# tickets = ticket.lower()
+# if ageint >= 18 and tickets == "yes":
+#     print("Welcome in")
+# else:
+#     print("Sorry, you can't enter")
+
+
+#LOOPS WITH WHILE
